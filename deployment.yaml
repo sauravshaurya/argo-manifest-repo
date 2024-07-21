@@ -17,6 +17,7 @@ spec:
       containers:
         - name: my-app
           image: dsc-api-gateway:1.0.0
+          imagePullPolicy: Never
           ports:
             - containerPort: 8080
 ---
